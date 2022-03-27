@@ -74,6 +74,10 @@ header h1{
     border-left: 3px solid navy;
 }
 
+.works .describe{
+    max-width: 500px;
+}
+
 .works p{
     margin-top: 16px;
 }
