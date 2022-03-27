@@ -40,12 +40,6 @@ a:hover{
     opacity: 0.5;
 }
 
-.container{
-    margin: 0 16px;
-    padding: 32px 0;
-    /* border: 2px solid red; */
-}
-
 /* header */
 
 header{
@@ -71,16 +65,22 @@ header h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 16px 40px;
+    padding: 32px 0;
 }
 
-.works .container h2{
+.works h2{
     padding: 0 8px;
     border-left: 3px solid navy;
 }
 
+.works p{
+    margin-top: 8px;
+}
+
 .works ul{
     width: 100%;
-    margin-top: 32px;
+    padding: 32px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
