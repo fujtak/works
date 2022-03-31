@@ -6,17 +6,17 @@ body{
     margin: 0;
 }
 
-h1,h2,h3{
+h1,h2{
     margin: 0;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 24px;
     text-align: center;
 }
 
 p{
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -69,21 +69,17 @@ header h1{
     padding: 32px 0;
 }
 
-.works h2{
+.works ul h1{
     padding: 0 8px;
     border-left: 3px solid navy;
 }
 
-.works .describe{
-    max-width: 500px;
+.works .img{
+    margin-top: 8px;
 }
 
-.works p{
-    margin-top: 16px;
-}
-
-.works p + p{
-    margin-top: 0;
+.works .background{
+    margin-top: 4px;
 }
 
 .works ul{
