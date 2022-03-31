@@ -66,7 +66,10 @@ header h1{
     flex-direction: column;
     align-items: center;
     margin: 0 16px 56px;
-    padding: 32px 0;
+}
+
+.works .container p{
+    margin-top: 32px;
 }
 
 .works ul h1{
@@ -88,7 +91,7 @@ header h1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 64px 16px;
 }
 
 .works li{
@@ -138,7 +141,7 @@ footer small{
     }
     
     .works li{
-        width: calc((100% - 32px) / 2);
+        width: calc((100% - 16px) / 2);
     }
 
 }
